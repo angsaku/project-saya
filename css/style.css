@@ -1,0 +1,420 @@
+
+body {
+	background-color: #2980b9;
+	font-size: 62.5%;
+	margin: 0;
+	padding: 0;
+}
+body * {
+	font-size: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+}
+p {
+	margin-bottom: 1.1em;
+	margin-top: 0;
+}
+.main p.lastNode {
+	margin-bottom: 0;
+}
+a:link img, a:visited img {
+	border: none;
+}
+div.clearFloat {
+	clear: both;
+	font-size: 0;
+	height: 0;
+	line-height: 0px;
+}
+li.clearFloat {
+	clear: both;
+}
+ul.symbolList {
+	display: inline;
+	float: left;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.AbsWrap {
+	position: relative;
+	width: 100%;
+}
+.rowWrap {
+	width: 100%;
+}
+.Div {
+	left: 0px;
+	position: absolute;
+	top: -14px;
+	margin-bottom: 0;
+	background-color: #0085b2;
+	width: 1352px;
+	padding-top: 0px;
+	height: 100%;
+}
+html > body .Div {
+	height: 100%;
+}
+.Div2 {
+	left: 0px;
+	position: absolute;
+	top: -4px;
+	margin-bottom: 0;
+	background-color: #444;
+	width: 1352px;
+	padding-top: 0px;
+	height: 229px;
+}
+html > body .Div2 {
+	height: auto;
+	min-height: 230px;
+}
+.Div3 {
+	left: 24px;
+	position: absolute;
+	top: -4px;
+	margin-bottom: 0;
+	background-color: #00b2b2;
+	width: 250px;
+	padding-top: 0px;
+	height: 249px;
+}
+html > body .Div3 {
+	height: auto;
+	min-height: 250px;
+}
+.Div4 {
+	left: 24px;
+	position: absolute;
+	top: -4px;
+	margin-bottom: 0;
+	background-color: #00b2b2;
+	width: 250px;
+	padding-top: 0px;
+	height: 249px;
+}
+.Div4:hover{
+	cursor: pointer;
+
+}
+html > body .Div4 {
+	height: auto;
+	min-height: 250px;
+}
+.Txt_SISTEM {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 300%;
+	font-weight: bold;
+	text-align: center;
+	color: #fff;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	left: 519px;
+	position: absolute;
+	top: 73px;
+	margin-bottom: 0;
+}
+.Txt_Login {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 110%;
+	font-weight: bold;
+	text-align: center;
+	color: #fff;
+	line-height: 120%;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	left: 1015px;
+	position: absolute;
+	top: 247px;
+	margin-bottom: 0;
+	width: 310px;
+}
+.Txt_Login:hover{
+color: #fff;
+cursor: pointer;
+transition:background-color 0.75s ease ;
+
+}
+.Div5 {
+	left: 41px;
+	position: absolute;
+	top: 350px;
+	margin-bottom: 0;
+	background-color: #fff;
+	width: 1260px;
+	padding-top: 0px;
+	height: 450px;
+	padding-top: 0px;
+	
+}
+.Div6 {
+	left: 64px;
+	position: absolute;
+	top: 373px;
+	margin-bottom: 0;
+	background-color: #00b2b2;
+	width: 186px;
+	padding-top: 0px;
+	height: 173px;
+	font-size: 15px;
+	font-family:arial;
+	color: #fff;
+
+}
+.Div6:hover{
+ color: #000;
+ cursor: pointer;
+ background-color: #e74c3c;
+ transition:background-color 0.75s ease ;
+}
+html > body .Div6 {
+	height: auto;
+	min-height: 174px;
+}
+.Div7 {
+	left: 847px;
+	position: absolute;
+	top: 373px;
+	margin-bottom: 0;
+	background-color: #00b2b2;
+	width: 186px;
+	padding-top: 0px;
+	height: 173px;
+	font-size: 15px;
+	font-family:arial;
+	color: #fff;
+}
+.Div7:hover{
+ color: #000;
+ cursor: pointer;
+ background-color: #e74c3c;
+ transition:background-color 0.75s ease ;
+}
+html > body .Div7 {
+	height: auto;
+	min-height: 174px;
+}
+.Div8 {
+	left: 318px;
+	position: absolute;
+	top: 374px;
+	margin-bottom: 0;
+	background-color: #00b2b2;
+	width: 186px;
+	padding-top: 0px;
+	height: 173px;
+	font-size: 15px;
+	font-family:arial;
+	color: #fff;
+}
+.Div8:hover{
+ color: #000;
+ cursor: pointer;
+ background-color: #e74c3c;
+ transition:background-color 0.75s ease ;
+}
+html > body .Div8 {
+	height: auto;
+	min-height: 174px;
+}
+.Div9 {
+	left: 1085px;
+	position: absolute;
+	top: 374px;
+	margin-bottom: 0;
+	background-color: #00b2b2;
+	width: 186px;
+	padding-top: 0px;
+	height: 173px;
+	font-family: arial;
+	font-size: 15px;
+	color: #fff;
+}
+.Div9:hover{
+ color: #000;
+ cursor: pointer;
+ background-color: #e74c3c;
+ transition:background-color 0.75s ease ;	
+}
+html > body .Div9 {
+	height: auto;
+	min-height: 174px;
+}
+.Div10 {
+	left: 576px;
+	position: absolute;
+	top: 374px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	background-color: #00b2b2;
+	width: 186px;
+	padding-top: 0px;
+	height: 173px;
+	font-size: 15px;
+	font-family: arial;
+	color: #fff;
+}
+.Div10:hover{
+ color: #000;
+ cursor: pointer;
+ background-color: #e74c3c;
+ transition:background-color 0.75s ease ;
+}
+.Div10:hover{
+ color: #000;
+ cursor: pointer;
+ background-color: #e74c3c;
+}
+}
+html > body .Div10 {
+	height: auto;
+	min-height: 174px;
+}
+.Div11 {
+	left: 65px;
+	position: absolute;
+	top: 589px;
+	margin-bottom: 0;
+	background-color: #00b2b2;
+	width: 186px;
+	padding-top: 0px;
+	height: 173px;
+	font-family: arial ;
+	font-size: 15px;
+	color: #fff;
+
+}
+.Div11:hover{
+ color: #000;
+ cursor: pointer;
+ background-color: #e74c3c;
+ transition:background-color 0.75s ease ;
+}
+html > body .Div11 {
+	height: auto;
+	min-height: 174px;
+}
+.Div12 {
+	left: 318px;
+	position: absolute;
+	top: 589px;
+	margin-bottom: 0;
+	background-color: #00b2b2;
+	width: 186px;
+	padding-top: 0px;
+	height: 173px;
+	font-family: arial;
+	font-size: 15px;
+	color: #fff;
+}
+.Div12:hover{
+ color: #000;
+ cursor: pointer;
+ background-color: #e74c3c;
+ transition:background-color 0.75s ease ;
+}
+html > body .Div12 {
+	height: auto;
+	min-height: 174px;
+}
+.Div13 {
+	left: 578px;
+	position: absolute;
+	top: 589px;
+	margin-bottom: 0;
+	background-color: #00b2b2;
+	width: 186px;
+	padding-top: 0px;
+	height: 173px;
+	font-size: 15px;
+	font-family: arial;
+	color: #fff;
+}
+.Div13:hover{
+ color: #000;
+ cursor: pointer;
+ background-color: #e74c3c;
+ transition:background-color 0.75s ease ;
+}
+html > body .Div13 {
+	height: auto;
+	min-height: 174px;
+}
+.Div14 {
+	left: 848px;
+	position: absolute;
+	top: 589px;
+	margin-bottom: 0;
+	background-color: #00b2b2;
+	width: 186px;
+	padding-top: 0px;
+	height: 173px;
+	font-family: arial;
+	font-size: 15px;
+	color: #fff;
+}
+.Div14:hover{
+ color: #000;
+ cursor: pointer;
+ background-color: #e74c3c;
+ transition:background-color 0.75s ease ;
+}
+html > body .Div14 {
+	height: auto;
+	min-height: 174px;
+}
+.Div15 {
+	left: 1085px;
+	position: absolute;
+	top: 590px;
+	margin-bottom: 0;
+	background-color: #00b2b2;
+	width: 186px;
+	padding-top: 0px;
+	height: 173px;
+	font-family: arial;
+	font-size: 15px;
+	color: #fff;
+}
+.Div15:hover{
+ color: #000;
+ cursor: pointer;
+ background-color: #e74c3c;
+ transition:background-color 0.75s ease ;
+}
+html > body .Div15 {
+	height: auto;
+	min-height: 174px;
+}
+.Div21 {
+	left: 0px;
+	position: absolute;
+	top: 2081px;
+	margin-bottom: 0;
+	background-color: #444;
+	width: 1352px;
+	padding-top: 0px;
+	height: 49px;
+}
+html > body .Div21 {
+	height: auto;
+	min-height: 50px;
+}
+.Txt_CopyRight2015 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 120%;
+	text-align: left;
+	color: #fff;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	left: 585px;
+	position: absolute;
+	top: 2095px;
+	margin-bottom: 0;
+}
+.Txt_CopyRight2015 :hover{
+	cursor: pointer;
+}
